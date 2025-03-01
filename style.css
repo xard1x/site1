@@ -1,0 +1,14 @@
+.cont{
+    border: solid 2px red;
+}
+#cont1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-family: "Sigmar", serif;
+    font-size: 100px;
+    font-style: normal;
+}
