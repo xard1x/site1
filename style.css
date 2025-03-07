@@ -3,6 +3,7 @@
     display: flex;
 }
 #cont0{
+    flex-wrap: wrap;
     width: 100%; 
     height: 1300px;
     height: 1300px;
@@ -19,7 +20,10 @@
     justify-content: space-around;
     align-items: center;
 }
-
+#cont3{
+    width: 100%;
+    margin-top: -450px;
+}
 .title{
     font-family: "Sigmar", serif;
     font-weight: 100px;
@@ -32,6 +36,14 @@
     align-items: start;
     color: rgb(255, 92, 32);
 }
+#t2{
+    font-family: "Sigmar", serif;
+    font-size: 23px;
+    font-style: normal;
+    color: rgb(31, 31, 31) ;
+    margin-left: 2px;
+}
+
 #img1{
     margin-right: -100px;
     margin-left: 60px;
