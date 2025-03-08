@@ -1,18 +1,16 @@
 .cont{
-    border: solid 2px red;
     display: flex;
 }
 #cont0{
     flex-wrap: wrap;
     width: 100%; 
-    height: 1300px;
-    height: 1300px;
-    background: linear-gradient(to right top, rgb(255, 92, 32), rgb(27, 27, 27));
+    height: 950px;
+    background: linear-gradient(to right top, rgb(255, 155, 118), rgb(255, 73, 18));
  }
 #cont1 {
     width: 100%;
     height: 70px;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(0, 0, 0);
 }
 #cont2{
     margin-left: 500px;
@@ -21,11 +19,23 @@
     align-items: center;
 }
 #cont3{
+    height: 275px;
     width: 100%;
-    margin-top: -450px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+#cont4{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 500px;
+    height: 300px;
+    width: 100%;
 }
 .title{
-    font-family: "Sigmar", serif;
+    font-family: "Kanit", sans-serif;
     font-weight: 100px;
     font-style: normal;
 }
@@ -36,21 +46,27 @@
     align-items: start;
     color: rgb(255, 92, 32);
 }
-#t2{
-    font-family: "Sigmar", serif;
-    font-size: 23px;
-    font-style: normal;
-    color: rgb(31, 31, 31) ;
-    margin-left: 2px;
+#t2, #t3, #t4, #t5, #t6, #t7{
+    color: rgb(0, 0, 0);
 }
-
+#t3{
+    margin-top: -25px;
+}
+#t4, #t5{
+    margin-top: -10px;
+    font-size: 20px;
+}
+#t4{
+    margin-top: 1px;
+}
 #img1{
     margin-right: -100px;
     margin-left: 60px;
     margin-top: 10px;
 }
 body{
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(0, 0, 0);
+    height: 900px;
 }
 .link_up{
     color: rgb(255, 92, 32);
@@ -58,4 +74,28 @@ body{
     font-family: "Kanit", sans-serif;
     font-size: 23px;
     font-style: normal;
+}
+.text_big{
+    font-size: 45px;
+    font-family: "Seymour One", sans-serif;
+    font-style: normal;
+}
+button{
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 50px;
+    border: none;
+    height: 75px;
+    width: 200px;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    font-family: "Seymour One", sans-serif;
+    font-style: normal;
+}
+#but1{
+    background: linear-gradient(to right top,rgb(255, 202, 183), rgb(255, 69, 12));
+}
+#but2{
+    background: linear-gradient(to bottom left,rgb(255, 202, 183), rgb(255, 69, 12));
 }
