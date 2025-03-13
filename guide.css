@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+.cont{
+    display: flex;
+    border: solid 2px red;
+    width: 100%;
+}
+#cont0{
+    background: linear-gradient(to right top, rgb(255, 155, 118), rgb(255, 73, 18));
+    height: 950px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; 
+    flex-direction: column;
+}
+h1{
+    font-family: "Seymour One", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+}
+h2{
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    color: black;
+}
+.big_text{
+    font-size: 33px;
+}
