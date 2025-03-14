@@ -9,10 +9,16 @@ body{
 #cont0{
     background: linear-gradient(to right top, rgb(255, 155, 118), rgb(255, 73, 18));
     height: 950px;
-    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap; 
     flex-direction: column;
+}
+#cont1{
+    justify-content: flex-start;
+}
+#cont2{
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     font-family: "Seymour One", sans-serif;
@@ -30,7 +36,4 @@ h2, a{
 .big_text{
     font-size: 33px;
     margin: 30px;
-}
-a{
-    text-decoration: underline;
 }
