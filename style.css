@@ -60,6 +60,9 @@
     margin-top: 1px;
 }
 #img1{
+    width: 50;
+    height: 35;
+    margin-bottom: 10px;
     margin-right: -100px;
     margin-left: 60px;
     margin-top: 10px;
@@ -98,4 +101,94 @@ button{
 }
 #but2{
     background: linear-gradient(to bottom left,rgb(255, 202, 183), rgb(255, 69, 12));
+}
+@media only screen and (max-width : 768px) {
+    .cont{
+        border: solid 2px red;
+        display: flex;
+    }
+    #cont0{
+        flex-wrap: wrap;
+        width: 320px; 
+        height: 650px;
+        background: wheat;
+        flex-direction: column;
+     }
+    #cont1 {
+        width: 320px;
+        height: 35px;
+        background-color: rgb(0, 0, 0);
+    }
+    #cont2{
+        margin-left: 0px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #cont3{
+        height: 150px;
+        width: 320px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    #cont4{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 250px;
+        height: 150px;
+        width: 320px;
+    }
+    .title{
+        font-family: "Kanit", sans-serif;
+        font-weight: 20px;
+        font-style: normal;
+    }
+    #t1{
+        font-size: 13px;
+        margin-top: 2px;
+        margin-left:  50px;
+        justify-content: left;
+        align-items: start;
+        color: rgb(255, 92, 32);
+    }
+    #t2, #t3, #t4, #t5, #t6, #t7{
+        color: rgb(0, 0, 0);
+    }
+    #t3{
+        margin-top: -25px;
+    }
+    #t4, #t5{
+        margin-top: -10px;
+        font-size: 10px;
+    }
+    #t4{
+        margin-top: 1px;
+    }
+    #img1{
+        height: 10;
+        width: 13;
+        margin-right: -50px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    body{
+        width: 320px;
+        background-color: rgb(255, 255, 255);
+        height: 650px;
+    }
+    .link_up{
+        color: rgb(255, 92, 32);
+        text-decoration: none;
+        font-family: "Kanit", sans-serif;
+        font-size: 10px;
+        font-style: normal;
+    }
+    .text_big{
+        font-size: 13px;
+        font-family: "Seymour One", sans-serif;
+        font-style: normal;
+    }
 }
