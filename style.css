@@ -46,7 +46,7 @@
     align-items: start;
     color: rgb(255, 92, 32);
 }
-#t2, #t3, #t4, #t5, #t6, #t7{
+#t2, #t3, #t4, #t5{
     color: rgb(0, 0, 0);
 }
 #t3{
@@ -58,14 +58,6 @@
 }
 #t4{
     margin-top: 1px;
-}
-#img1{
-    width: 50;
-    height: 35;
-    margin-bottom: 10px;
-    margin-right: -100px;
-    margin-left: 60px;
-    margin-top: 10px;
 }
 body{
     background-color: rgb(0, 0, 0);
@@ -104,25 +96,29 @@ button{
 }
 @media only screen and (max-width : 768px) {
     .cont{
-        border: solid 2px red;
         display: flex;
+        flex-wrap: wrap;
     }
     #cont0{
         flex-wrap: wrap;
         width: 320px; 
-        height: 650px;
-        background: wheat;
-        flex-direction: column;
+        height: 400px;
+        background: linear-gradient(to right top, rgb(255, 155, 118), rgb(255, 73, 18));
+        justify-content: center;
+        
      }
     #cont1 {
+        justify-content: center;
         width: 320px;
         height: 35px;
         background-color: rgb(0, 0, 0);
     }
     #cont2{
+        background-color: black;
+        margin-top: 4px;
         margin-left: 0px;
-        width: 100%;
-        justify-content: center;
+        width: 320px;
+        justify-content: space-around;
         align-items: center;
     }
     #cont3{
@@ -135,11 +131,12 @@ button{
         align-items: center;
     }
     #cont4{
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         margin-bottom: 250px;
         height: 150px;
-        width: 320px;
+        width: 150px;
     }
     .title{
         font-family: "Kanit", sans-serif;
@@ -149,16 +146,16 @@ button{
     #t1{
         font-size: 13px;
         margin-top: 2px;
-        margin-left:  50px;
+        margin-left:  25px;
         justify-content: left;
         align-items: start;
         color: rgb(255, 92, 32);
     }
-    #t2, #t3, #t4, #t5, #t6, #t7{
+    #t2, #t3, #t4, #t5{
         color: rgb(0, 0, 0);
     }
     #t3{
-        margin-top: -25px;
+        margin-top: 10px;
     }
     #t4, #t5{
         margin-top: -10px;
@@ -167,17 +164,10 @@ button{
     #t4{
         margin-top: 1px;
     }
-    #img1{
-        height: 10;
-        width: 13;
-        margin-right: -50px;
-        margin-left: 25px;
-        margin-top: 5px;
-    }
     body{
         width: 320px;
-        background-color: rgb(255, 255, 255);
-        height: 650px;
+        background-color: rgb(0, 0, 0);
+        height: 400px;
     }
     .link_up{
         color: rgb(255, 92, 32);
@@ -190,5 +180,13 @@ button{
         font-size: 13px;
         font-family: "Seymour One", sans-serif;
         font-style: normal;
+    }
+    button{
+        font-size: 13px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 25px;
+        border: none;
+        height: 25px;
     }
 }
